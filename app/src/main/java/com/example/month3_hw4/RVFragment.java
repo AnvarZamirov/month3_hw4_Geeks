@@ -33,8 +33,8 @@ public class RVFragment extends Fragment implements OnItemClick {
 
     private void loadData() {
         pizzaModel.add(new PizzaModel("Peperoni", "https://www.allrecipes.com/thmb/9UTj7kZBJDqory0cdEv_bw6Ef_0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-2x1-BG-2976-d5926c9253d3486bbb8a985172604291.jpg", "Peperoni god pizza", "5"));
-        pizzaModel.add(new PizzaModel("Margarita", "https://www.allrecipes.com/thmb/9UTj7kZBJDqory0cdEv_bw6Ef_0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-2x1-BG-2976-d5926c9253d3486bbb8a985172604291.jpg", "Margarita god pizza", "5"));
-        pizzaModel.add(new PizzaModel("Mexico", "https://www.allrecipes.com/thmb/9UTj7kZBJDqory0cdEv_bw6Ef_0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-2x1-BG-2976-d5926c9253d3486bbb8a985172604291.jpg", "Mexico god pizza", "5"));
+        pizzaModel.add(new PizzaModel("Margarita", "https://imag.bonviveur.com/pizza-margarita.jpg", "Margarita god pizza", "5"));
+        pizzaModel.add(new PizzaModel("kola", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tumbler_of_cola_with_ice.jpg/274px-Tumbler_of_cola_with_ice.jpg", "Kola with USA", "5"));
         pizzaModel.add(new PizzaModel("Italian", "https://www.allrecipes.com/thmb/9UTj7kZBJDqory0cdEv_bw6Ef_0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-2x1-BG-2976-d5926c9253d3486bbb8a985172604291.jpg", "Italian god pizza", "5"));
         pizzaModel.add(new PizzaModel("Asian", "https://www.allrecipes.com/thmb/9UTj7kZBJDqory0cdEv_bw6Ef_0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/48727-Mikes-homemade-pizza-DDMFS-beauty-2x1-BG-2976-d5926c9253d3486bbb8a985172604291.jpg", "Asian god pizza", "5"));
     }
