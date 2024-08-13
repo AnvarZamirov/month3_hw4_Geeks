@@ -37,7 +37,9 @@ public class SecondRVFragment extends Fragment {
         if (pizzaModel != null) {
             binding.tvName.setText(pizzaModel.getName());
             binding.tvDesc.setText(pizzaModel.getDesc());
+            binding.tvDesc.setText(pizzaModel.getDesc());
             binding.tvPrice.setText(pizzaModel.getPrice() + "$");
+            //binding.imgPizza.setImageResource(pizzaModel.image);
             Glide.with(this).load(pizzaModel.getImage()).into(binding.imgPizza);
         }
     }
